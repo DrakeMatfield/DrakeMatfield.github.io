@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" title="normal" />
+    <link href="StyleSheetBlank.css" rel="stylesheet" type="text/css" title="blank" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="miscFunctions.js" defer></script>
+
+</head>
+<body>
+    <!-- wrapper for styling purposes -->
+    <div class="wrapper">
+        <!-- Naviagation-->
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="resume.html">Resume</a></li>
+                <li class="right"><a href="#Blank" onclick="reStyle(1)">Blank</a></li>
+                <li class="right"><a href="#Normal" onclick="reStyle(0)">Normal</a></li>
+            </ul>
+        </nav>
+        <!--( <div> tag used to keep the fixed Main Navigation from overlapping.)  -->
+        <div class="main">
+            <!-- header Showcase -->
+            <header>
+                <h1>
+                    My Web Design &amp; Development Resume Page!</h1>
+                <p>
+                    This is my resume. In it is my Summary of qualifications, employment history, education
+                    and references. There also a link available to download a pdf copy.</p>
+            </header>
+            <div>
+                <!-- btn for downloading resume
+                current this style of downloading will only work in html 5 -->
+                <a class="btn" href="Drake Resume temp.pdf" download target="blank">Download Resume.pdf</a>
+                <!-- resume -->
+                <article class="resume">
+                    <!-- section (summary of skills) -->
+                    <section>
+                        <h2>
+                            SUMMARY OF QUALIFICATIONS</h2>
+                        <ul>
+                            <li>Quick Learner </li>
+                            <li>Computer Programmer</li>
+                            <li>3 year Management Experience</li>
+                            <li>Customer-relations Experience</li>
+                            <li>Experience Delivery Driver</li>
+                            <li>Can work well under pressure in a busy environment</li>
+                        </ul>
+                    </section>
+                    <!-- section (Employment History) -->
+                    <section>
+                        <h2>
+                            EMPLOYMENT HISTORY</h2>
+                        <ul>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Computer Programmer</h3>
+                                    <span>Summit Imaging Inc.,</span><span> Lee's Summit, Missouri</span>
+                                    <br />
+                                    <span>Feb 2007 - Mar 2008</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Shift Manager/Delivery Driver</h3>
+                                    <span>Pizza Hut,</span><span> Kansas City, Missouri</span>
+                                    <br />
+                                    <span>Aug 2004 - Nov 2013</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Janitorial</h3>
+                                    <span>Woodley Janitorial,</span><span> Kansas City, Missouri</span>
+                                    <br />
+                                    <span>Apr 2004 - Jun 2004</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Cook</h3>
+                                    <span>Long John Silver,</span><span> Kansas City, Missouri</span>
+                                    <br />
+                                    <span>Sep 2003 - May 2004</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Package Handler</h3>
+                                    <span>United Parcel Service (UPS),</span><span> Lenexa, Kansas</span>
+                                    <br />
+                                    <span>Nov 2000 - Aug 2003</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Dishwasher</h3>
+                                    <span>The Peachtree Buffet,</span><span> Kansas City, Missouri</span>
+                                    <br />
+                                    <span>Mar 1999 - Nov 2000</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- section (Education) -->
+                    <section>
+                        <h2>
+                            EDUCATION</h2>
+                        <ul>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Computer Information System</h3>
+                                    <span><i>Penn Valley Metropolitan Community College,</i></span><span><i>Kansas City,
+                                        Missouri</i></span>
+                                    <br />
+                                    <span><i>2004 - 2005</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Computer Information System</h3>
+                                    <span><i>Devry University Institute,</i></span><span><i>Kansas City, Missouri</i></span>
+                                    <br />
+                                    <span><i>2000 - 2003</i></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h3>
+                                        Diploma</h3>
+                                    <span><i>Raytown High School, <span>Raytown, Missouri</span></i></span>
+                                    <br />
+                                    <span><i>2000</i></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- section (Volunteer Work)
+                     I made up some work. I didn't know if that matter -->
+                    <section>
+                        <h2>
+                            VOLUNTEER WORK</h2>
+                        <ul>
+                            <li>Organize a community blood drive </li>
+                            <li>Organize a car wash and donate the profits to charity </li>
+                            <li>Participate in a charity race </li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <small>
+                <p>
+                    &copy; 2018 My Resume</p>
+                <p>
+                    Follow me on <a href="https://www.facebook.com/drake.matfield" target="_blank">Facebook</a>
+                    and <a href="https://www.instagram.com/drakematfield/" target="_blank">Instagram</a></p>
+            </small>
+        </footer>
+    </div>
+</body>
+</html>

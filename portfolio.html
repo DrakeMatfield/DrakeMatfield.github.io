@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" title="normal" />
+    <link href="StyleSheetBlank.css" rel="stylesheet" type="text/css" title="blank" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="miscFunctions.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Naviagation-->
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="right"><a href="#Blank" onclick="reStyle(1)">Blank</a></li>
+                <li class="right"><a href="#Normal" onclick="reStyle(0)">Normal</a></li>
+            </ul>
+        </nav>
+        <!--( <div> tag used to keep the fixed Main Navigation from overlapping.)  -->
+        <div class="main">
+            <!-- header -->
+            <header>
+                <h1>
+                    My Web Design &amp; Development Portfolio Page!</h1>
+                <p>
+                    A site featuring my latest work.</p>
+            </header>
+            <!-- section -->
+            <section>
+                <h2>
+                    Welcome</h2>
+                <div>
+                    <p>
+                        This is my portfolio for my web class. In it is my class projects and a few of my
+                        own personal workings. Feel free to explore them. Each selection contains a small
+                        description about the project; and a link to the project.
+                    </p>
+                    <p>
+                        As a part of the course the projects we do as part of the course should be link
+                        to Gib hub. As such I did add some of my personal projects to git hub to full fill
+                        the course requirements. However some of my person projects doesn’t seem valid for
+                        the platform. and therefore will not include a link to git hub; but to it’s relative
+                        content.
+                    </p>
+                </div>
+            </section>
+            <!-- List of projects  -->
+            <ul class="projectWrapper">
+                <!-- project: #1 -->
+                <li class="project">
+                    <h3>
+                        <i class="fab fa-git-square fa-fw"></i><a href="https://github.com" target="_blank">
+                            Recent project #1</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-1" />
+                        <div class="read-more-wrap">
+                            <p>
+                                This project place holder is meant for a future class project.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    Assignment - (Code the Block's Website): To build a functional website that explains
+                                    what we do and how we do it. The website should be able to take donations and track
+                                    Google Analytics.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-1" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Github.jpg" alt="">
+                </li>
+                <!-- project: #2 -->
+                <li class="project">
+                    <h3>
+                        <i class="fab fa-git-square fa-fw"></i><a href="https://github.com" target="_blank">
+                            Recent project #2</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-2" />
+                        <div class="read-more-wrap">
+                            <p>
+                                This project place holder is meant for a future class project.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    Assignment - (Shopping List App): To build a functional website that explains what
+                                    we do and how we do it. The website should be able to take donations and track Google
+                                    Analytics.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-2" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Github.jpg" alt="">
+                </li>
+                <!-- project: #3 -->
+                <li class="project">
+                    <h3>
+                        <i class="fab fa-git-square fa-fw"></i><a href="https://github.com/DrakeMatfield/DecimalToBinaryConverter" target="_blank">
+                            Decimal to Binary Converter</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-3" />
+                        <div class="read-more-wrap">
+                            <p>
+                                Create a web app that can take any decimal number and convert to a binary number or take a binary number and convert it to a decimal.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+<ul>
+<li>Your app should reject any number larger than 255 or smaller than 0 and display an error
+</li><li>Display the result on the page</li><li>
+If there is already a result on the page, replace it when a new number is submitted.</li>
+</ul>                                
+</p>
+                            </span>
+                        </div>
+                        <label for="project-3" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Github.jpg" alt="">
+                </li>
+                <!-- project 4: The Love Chronicles of Drake and Eumeaka -->
+                <li class="project">
+                    <h3>
+                        <i class="fas fa-globe fa-fw"></i><a href="http://www.DrakeandEumeaka.info" target="_blank">
+                            The Love Chronicles of Drake and Eumeaka</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-4" />
+                        <div class="read-more-wrap">
+                            <p>
+                                The Love Chronicles of Drake and Eumeaka is a project I start in 2013.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    The Love Chronicles of Drake and Eumeaka are writings consisting of collections
+                                    of poems, letters, logs and events of one man life trying to find his true love
+                                    - Which he believe might be Eumeaka! While during this he find himself in the mist
+                                    of a conspiracy that threatens his life.
+                                </p>
+                                <p>
+                                    The project was an attempt to fulfill my dreams while sorting out the conspiracy
+                                    that is attacking me.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-4" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Love.jpg" alt="">
+                </li>
+                <!-- project 5:  Anura (The Water Dragon Princess) -->
+                <li class="project">
+                    <h3>
+                        <i class="fas fa-globe fa-fw"></i><a href="http://drakeandeumeaka.info/Anura" target="_blank">
+                            Anura: The Water Dragon Princess</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-5" />
+                        <div class="read-more-wrap">
+                            <p>
+                                I decided to use Anura as my debut character; since she had the most potential and
+                                is easily tied into the Love Chronicles.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    Because I was in desperate need for some quick cash, I ponder a quick scheme of
+                                    making some money fast. I had my story; but it is far from finish; and I didn't
+                                    want to rush it either. If and when the Love Chronicles of Drake and Eumeaka made
+                                    its debut I want things to be perfect.
+                                </p>
+                                <p>
+                                    Unfortunately, developing Anura as the first Publication and lead into the Love
+                                    Chronicles of Drake and Eumeaka isn't going to be an easy task. Anura is going to
+                                    take at least 2 months; but more realistically 3 months before being ready to sell.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-5" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Anura.jpg" alt="">
+                </li>
+                <!-- project 6: Project (X-Card) -->
+                <li class="project">
+                    <h3>
+                        <i class="fas fa-globe fa-fw"></i><a href="http://drakeandeumeaka.info/projectXCard"
+                            target="_blank">Project: X-Card</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-6" />
+                        <div class="read-more-wrap">
+                            <p>
+                                Project X card is a project that I attempted to start to produce software to create
+                                graphical image of custom made cards.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    Initially, Project X card began as a gimmick that started in a Facebook group I
+                                    was associated with. Many members of the group would make alter graphical image
+                                    of famous Trading card games cards as part of an ongoing joke.
+                                </p>
+                                <p>
+                                    But I wish Project X card to be more than just software. I wish it to also be a
+                                    community development project; thus the name project is left into its published
+                                    name.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-6" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project Website.jpg" alt="">
+                </li>
+                <!-- project 7: Project (X-Card) [Web Application] -->
+                <li class="project">
+                    <h3>
+                        <i class="fas fa-cogs fa-fw"></i><a href="http://www.drakeandeumeaka.info/projectxcardapp"
+                            target="_blank">Project: X-Card (Web Application)</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-7" />
+                        <div class="read-more-wrap">
+                            <p>
+                                Project: X-Card (Web App) is the Web versions of Project X-Card (beta) version.
+                            </p>
+                            <span class="read-more-target">
+                                <p>
+                                    From the web site link you can run the application in your browser.
+                                </p>
+                                <p>
+                                    However, Project X-Card is still in it’s beta version and the web version is limit
+                                    to new browsers. This current version is built in asp.(NET).
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-7" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Project App.jpg" alt="">
+                </li>
+                <!-- project 8: Project (X-Card) [Windows Application] -->
+                <li class="project">
+                    <h3>
+                        <i class="fas fa-cog fa-fw"></i><a href="Project XCard Beta.zip" download>Project: X-Card
+                            (Application:beta)</a></h3>
+                    <!-- description -->
+                    <div class="description">
+                        <input type="checkbox" class="read-more-state" id="project-8" />
+                        <div class="read-more-wrap">
+                            <p>
+                                <em style="color: red;">This version is only for Windows Desktop.</em></p>
+                            <span class="read-more-target">
+                                <p>
+                                    Project X-Card beta creates graphical image of custom made cards.However Project
+                                    X card beta is the first version; thus it has limited capabilities.
+                                </p>
+                                <p>
+                                    Nevertheless, enjoy the software that Project X-Card (beta) has to offer.
+                                </p>
+                            </span>
+                        </div>
+                        <label for="project-8" class="read-more-trigger">
+                        </label>
+                    </div>
+                    <!-- project image -->
+                    <img src="images/Draco Project X-Card.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- footer -->
+        <footer class="foot">
+            <small>
+                <p>
+                    &copy; 2018 My Portfolio</p>
+                <p>
+                    Follow me on <a href="https://www.facebook.com/drake.matfield" target="_blank">Facebook</a>
+                    and <a href="https://www.instagram.com/drakematfield/" target="_blank">Instagram</a></p>
+            </small>
+        </footer>
+    </div>
+</body>
+</html>
